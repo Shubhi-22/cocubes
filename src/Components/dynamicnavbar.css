@@ -1,0 +1,130 @@
+/* Reset default list styles */
+.navbar-container-menu,
+.child-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style for the top-level navbar-container-menu */
+.navbar-container-menu {
+  display: flex;
+  margin-left: 137px;
+
+}
+
+.nav-list {
+  margin-right: 150px;
+  font-weight: bold;
+  font-size:22px;
+  font-size:18px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size:18px;
+  line-height: 21.11px;
+  transition: color 0.3s;
+}
+
+.nav-list a:hover {
+  color: lightgray;
+  border: 1px solid #555;
+}
+
+/* Styles for child-menus */
+.child-menu {
+  display: none;
+  position: absolute;
+}
+
+.nav-list:hover .child-menu {
+  display: block;
+}
+
+.child-menu li {
+  display:block;
+  margin: 0;
+  padding: 10px;
+  /* border-bottom: 1px solid #555; */
+  
+}
+
+.child-menu a {
+  color: white;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+    /* background-color: #333; */
+  }
+  
+  /* .hamburger span {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 3px 0;
+  } */
+  .bar {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 3px 0;
+  }
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .navbar-container-menu {
+    flex-direction: column;
+  }
+
+  .nav-list {
+    margin: 5px 0;
+  }
+
+  .nav-list:hover .child-menu {
+    display: none;
+  }
+
+  .child-menu {
+    position: static;
+    background-color: transparent;
+    display: block;
+  }
+
+  .child-menu li {
+    padding: 10px;
+    border-bottom: none;
+  }
+
+  .navbar-container-menu  {
+     display: none; /*Hide the navbar-container-menu  by default */
+    flex-direction: column;
+    /* background-color: #333; */
+    position: absolute;
+    width: 100%;
+    /* top: 60px; */
+    /* left: 0; */
+    /* z-index: 1; */
+    transition: transform 0.3s;
+    transform: translateY(-100%);
+  }
+
+  .navbar-container-menu .open {
+    transform: translateY(0);
+    display:block;
+    
+  }
+
+  .hamburger {
+    display: flex;
+     /* Show the hamburger icon */
+     float:right;
+     margin-top:-46px;
+     
+  }
+}

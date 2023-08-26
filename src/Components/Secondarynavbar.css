@@ -7,8 +7,9 @@
 *{
     box-sizing: border-box;
     list-style-type: none;
-    /* font-family: "Syne"; */
+    font-family: "Syne";
     padding:0 0;
+    overflow-x: hidden;
 }
 
 .navbar-sec-container{
@@ -28,3 +29,173 @@
 .title h1{
     margin:0;
 }
+.logo{
+    margin-left:90px;
+}
+.hr{
+    background-image: url("hr.png");
+    margin-right: 140px;
+    height:22px;
+    margin-left: 90px;
+}
+.secondary-menu{
+    float:right;
+    margin-right: 140px;
+    margin-top:-31px;
+    
+   
+}
+.secondary-menu .nav-item{
+    font-weight:400;
+    font-size: 14px;
+    color:#ffffff;
+}
+.bigstar{
+    background-image: url("bigstar.png");
+    position: absolute;
+    width: 367px;
+    height: 371.51px;
+    left: 1210px;
+    margin-top: 41px;
+
+}
+.person{
+    background-image: url("jessica.png");
+    position: absolute;    
+    width: 432px;
+    height: 617px;
+    margin-left: 1100px;
+}
+
+.rectangle{
+    background: #F07E15;
+    opacity: 0.4;
+    position: absolute;
+    width: 993px;
+    height: 354.3px;
+    margin-left: 713px;
+    margin-top: 200px;
+}
+
+.Fresh{
+    background-image: url("Fresh.png");
+    position: absolute;
+    width: 592px;
+    height: 98px;
+    margin-left: 350px;
+    margin-top: 120px;
+
+}
+.year{
+    background-image: url("2022.png");
+    position: absolute;
+    width: 542px;
+    height: 70px;
+    margin-left: 575px;
+    margin-top: 290px;
+
+}
+.Look{
+    background-image: url("Look.png");
+    position: absolute;
+    width: 510px;
+    height: 98px;
+    margin-left: 424px;
+    margin-top: 396px;
+}
+.line-2{
+    background-image: url("line-2-2.png");
+    height: 2px;
+    Width:976px;
+    margin-top:500px;
+    Border:1px;
+}
+.star{
+    background-image: url("Star.png");
+    Width:64px;
+    Height:89px;
+    margin-top:-48px;
+    margin-left:940px;
+}
+.see-more{
+    background-image: url("see-more.png");
+    width:103px;
+    height:24px;
+    margin-top: -20px;
+    margin-left: 195px;
+    border: 1px;
+    gap: 3px;
+
+}
+.product{
+    float: right;
+    margin-top: -40px;
+    margin-right: 10px;
+}
+.name{
+    color: white;
+    font-size: 14px;
+}
+.price{
+    color:white;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .secondary-menu{
+        display:none;
+    }
+    .title{
+        font-size: 30px;
+        /* font-weight: 274px; */
+    }
+    .logo{
+        margin-left: 0px;
+    }
+    .hr{
+        margin-right: 140px;
+        border-bottom:1px solid #ffffff;
+        height:0;
+        width:100vw;
+        margin-left:0;
+    /* margin-left: 90px; */
+    /* width:390px; */
+    }
+    .product{
+        display:none;
+    }
+    .see-more{
+        margin-left:10px;
+        margin-top:20px;
+        
+    }
+    .Fresh{
+        /* display:none; */
+        size:18px;
+        width:70vw;
+        margin-left: 10px;
+    }
+    .year{
+        display:none;
+        margin-left:10px;
+    }
+    .Look{
+        display:none;
+        margin-left:10px;
+    }
+    .rectangle{
+        margin-left:0px;
+        width:100vw;
+    }
+    .person{
+        margin-left:0px;
+    }
+    .bigstar{
+        margin-left:-1127px;
+    }
+    .star{
+        display:none;
+    }
+    
+    
+  }

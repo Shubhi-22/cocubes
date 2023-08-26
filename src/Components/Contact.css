@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+.contact-container{
+    background-image:url("contact.png") ;
+    height:600px;
+}
+.contact-ban{
+    /* background-image: url("contact-ban.png"); */
+    overflow-y: hidden;
+    margin-left:90px;
+    width:1095px;
+}
+.newsletter{
+    width:358px;
+    margin-left:103px;
+}
+.newsletter h1{
+    font-size:26px;
+    color:#ffffff;
+}
+.newsletter h2{
+    font-size:18px;
+    color:#ffffff;
+    line-height: 21.1px;;
+}
+
+
+@media(max-width: 768px)
+{
+    .contact-ban{
+        /* background-image: url("contact-ban.png"); */
+        height:195px;
+        margin-top:400px;
+        margin-left:90px;
+        width:100vw;
+    }
+}

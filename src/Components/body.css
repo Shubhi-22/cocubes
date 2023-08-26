@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    width: 689px;
+    height:151px;
+    /* margin-top: 860px; */
+    margin-left: 83px;
+    overflow-y: hidden;
+}
+.header h2{
+    font-size: 90px;
+    color: black;
+}
+.line-1{
+    background-image: url("line.png");
+    height:22px;
+    margin-left: 67px;
+    width:659px
+}
+.vertical{
+    margin-left:91px;
+    margin-top:25px;
+}
+.vertical li{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.vertical li:hover{
+    font-size: 26px;
+}

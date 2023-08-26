@@ -39,7 +39,7 @@
 @font-face {
   font-family: Syne;
   src: url('https://fonts.google.com/specimen/Syne');
-  /* font-weight: bold; */
+  font-weight: thin;
 }
 *{
   font-family: Syne;

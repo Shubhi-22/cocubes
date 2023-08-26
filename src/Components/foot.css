@@ -1,0 +1,27 @@
+.foot-container{
+    width: 100vw;
+height: 40px;
+/* margin-top: 2082px; */
+margin-left: -9px;
+background-color:black;
+
+}
+.foot-container span{
+    color:#ffffff;
+    align-items: center;
+    margin-left:650px ;
+    font-size: 18px;
+    width:237px;
+}
+
+@media(max-width: 768px){
+    .foot-container span{
+        color:#ffffff;
+        /* align-items: center; */
+        margin-left:100px ;
+        font-size: 12px;
+        /* width:237px; */
+        width:100vw;
+    }
+
+}
