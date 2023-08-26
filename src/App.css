@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,12 @@
   to {
     transform: rotate(360deg);
   }
+} */
+@font-face {
+  font-family: Syne;
+  src: url('https://fonts.google.com/specimen/Syne');
+  /* font-weight: bold; */
+}
+*{
+  font-family: Syne;
 }

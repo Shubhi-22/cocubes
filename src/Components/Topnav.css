@@ -1,0 +1,68 @@
+@import url("https://fonts.google.com/specimen/Syne");
+:root{
+    --backgroundcolor: #1A1A1A;
+    --fontcolor: #626262;
+}
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+    /* font-family: "Syne"; */
+    padding:0 0;
+}
+ul{
+    margin:0px;
+}
+
+.navbar-container{
+    background-color:var(--backgroundcolor);
+    color:var(--fontcolor);
+    height:42px;
+    width: 100vw;
+}
+
+.nav-item{
+    display:inline-block;
+    margin-left:10px
+}
+
+
+
+.line{
+    border-left: 1px solid var(--fontcolor);
+    height: 19px;
+    position: absolute;
+    margin-top: -15px;
+      
+}
+
+
+
+.delivery-icon{
+    color: var(--fontcolor);
+    height: 13px;
+    padding-top: 15px;
+    padding-left:90px;
+
+}
+
+.top-nav-right{
+    float: right;
+    margin-right: 140px;
+    margin-top: -20px;
+}
+
+.top-nav-right {
+    padding-left: 15px;
+
+}
+
+.top-sub-nav-right{
+    margin-right: 40px;
+    margin-top: -20px;
+}
+
+
+/* media queries */
+
+
+
